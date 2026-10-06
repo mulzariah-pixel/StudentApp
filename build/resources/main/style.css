@@ -1,0 +1,156 @@
+/* =========================================================
+   StudentApp - Customer Manager
+   Professional UI Theme
+   ========================================================= */
+
+/* Main application background */
+.root {
+    -fx-background-color: #F4F7FA;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    -fx-background-color: #17324D;
+    -fx-padding: 20px 28px;
+}
+
+.app-title {
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.app-subtitle {
+    -fx-text-fill: #CBD5E1;
+    -fx-font-size: 13px;
+}
+
+/* Section titles */
+.section-title {
+    -fx-text-fill: #17324D;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+/* Form card */
+.form-card {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-color: #D9E1E8;
+    -fx-border-radius: 10px;
+    -fx-padding: 22px;
+}
+
+/* Labels */
+.form-label {
+    -fx-text-fill: #1F2937;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+/* Text field and ComboBox */
+.text-field,
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #CBD5E1;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 9px 11px;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused,
+.combo-box:focused {
+    -fx-border-color: #2563EB;
+    -fx-border-width: 2px;
+}
+
+/* Primary button */
+.primary-button {
+    -fx-background-color: #2563EB;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6px;
+    -fx-padding: 10px 18px;
+    -fx-cursor: hand;
+}
+
+.primary-button:hover {
+    -fx-background-color: #1D4ED8;
+}
+
+.primary-button:pressed {
+    -fx-background-color: #1E40AF;
+}
+
+/* Delete button */
+.delete-button {
+    -fx-background-color: #DC2626;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6px;
+    -fx-padding: 10px 18px;
+    -fx-cursor: hand;
+}
+
+.delete-button:hover {
+    -fx-background-color: #B91C1C;
+}
+
+.delete-button:pressed {
+    -fx-background-color: #991B1B;
+}
+
+/* Status message */
+.status-label {
+    -fx-text-fill: #0F766E;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+/* Table */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #D9E1E8;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+/* Table header */
+.table-view .column-header-background {
+    -fx-background-color: #17324D;
+}
+
+.table-view .column-header {
+    -fx-background-color: #17324D;
+    -fx-padding: 10px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Table rows */
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #E5E7EB transparent;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #EFF6FF;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #DBEAFE;
+    -fx-text-fill: #1F2937;
+}
+
+/* Footer */
+.footer {
+    -fx-text-fill: #64748B;
+    -fx-font-size: 11px;
+}
