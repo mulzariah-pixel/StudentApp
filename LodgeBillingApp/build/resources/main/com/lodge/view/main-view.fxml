@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox spacing="15" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.lodge.controller.MainController" style="-fx-padding: 20;">
+    <Label text="Lodge Billing System" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    <GridPane hgap="10" vgap="10">
+        <Label text="Guest Name:" GridPane.rowIndex="0" GridPane.columnIndex="0"/><TextField fx:id="guestNameField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+        <Label text="Room Rate (ZMW):" GridPane.rowIndex="1" GridPane.columnIndex="0"/><TextField fx:id="roomRateField" text="500" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+        <Label text="Nights:" GridPane.rowIndex="2" GridPane.columnIndex="0"/><TextField fx:id="nightsField" text="1" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+    </GridPane>
+    <HBox spacing="10"><Button text="Calculate Bill" onAction="#calculateBill"/><Button text="Clear" onAction="#clearFields"/><Button text="Print Receipt" onAction="#printReceipt"/></HBox>
+    <Label fx:id="totalLabel" text="Total: ZMW 0.00" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+    <TextArea fx:id="receiptArea" prefHeight="350" promptText="Receipt will appear here..."/>
+</VBox>
